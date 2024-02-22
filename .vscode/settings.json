@@ -3,4 +3,7 @@
     "typescript.tsserver.log": "verbose",
     "javascript.preferGoToSourceDefinition": true,
     "typescript.tsdk": "./node_modules/typescript/lib",
+    "explorer.autoRevealExclude": {
+      "**/node_modules": false,
+    }
 }
