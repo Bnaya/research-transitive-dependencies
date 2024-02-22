@@ -5,7 +5,7 @@
     "enable": false
   },
   "compilerOptions": {
-    "lib": ["ESNext"],
+    "lib": [],
     "types": [],
     "maxNodeModuleJsDepth": 5,
     "paths": {
@@ -14,7 +14,13 @@
       ]
     }
   },
-  "include": ["src", "node_modules/twilio", "node_modules/axios"],
-  // "include": ["src"],
-  "exclude": ["node_modules/**/*.d.ts"]
+  "include": [
+    "src",
+    // Not sure if we really need these here
+    "node_modules/twilio",
+    "node_modules/axios",
+    "node_modules/@slack/web-api",
+    "node_modules/chromedriver"
+  ],
+  "exclude": []
 }

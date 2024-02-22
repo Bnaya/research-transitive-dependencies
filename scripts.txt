@@ -1,0 +1,3 @@
+# kill all d.ts MOHAHAHAHAHAHA
+rm -fr node_modules/**/*.d.ts;
+rm -fr node_modules/**/*.d.*ts;
