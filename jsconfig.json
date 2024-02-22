@@ -1,0 +1,20 @@
+{
+  "typeAcquisition": {
+    "include": [],
+    "exclude": [],
+    "enable": false
+  },
+  "compilerOptions": {
+    "lib": ["ESNext"],
+    "types": [],
+    "maxNodeModuleJsDepth": 5,
+    "paths": {
+      "*.d.ts": [
+        "./GOAWAY/*"
+      ]
+    }
+  },
+  "include": ["src", "node_modules/twilio", "node_modules/axios"],
+  // "include": ["src"],
+  "exclude": ["node_modules/**/*.d.ts"]
+}

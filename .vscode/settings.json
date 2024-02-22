@@ -1,0 +1,6 @@
+{
+    "typescript.tsserver.enableTracing": true,
+    "typescript.tsserver.log": "verbose",
+    "javascript.preferGoToSourceDefinition": true,
+    "typescript.tsdk": "./node_modules/typescript/lib",
+}
