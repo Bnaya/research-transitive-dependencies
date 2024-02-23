@@ -7,7 +7,7 @@
   "compilerOptions": {
     "lib": [],
     "types": [],
-    "maxNodeModuleJsDepth": 5,
+    "maxNodeModuleJsDepth": 20,
     "paths": {
       "*.d.ts": [
         "./GOAWAY/*"
@@ -17,10 +17,14 @@
   "include": [
     "src",
     // Not sure if we really need these here
-    "node_modules/twilio",
-    "node_modules/axios",
-    "node_modules/@slack/web-api",
-    "node_modules/chromedriver"
+    // "node_modules/twilio",
+    // "node_modules/axios",
+    // "node_modules/@slack/web-api",
+    // "node_modules/nano",
+    "node_modules/selenium-standalone"
   ],
-  "exclude": []
+  "exclude": [
+    "node_modules/**",
+    "!node_modules/selenium-standalone/**"
+  ]
 }

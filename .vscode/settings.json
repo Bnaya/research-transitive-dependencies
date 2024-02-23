@@ -3,7 +3,16 @@
     "typescript.tsserver.log": "verbose",
     "javascript.preferGoToSourceDefinition": true,
     "typescript.tsdk": "./node_modules/typescript/lib",
-    "explorer.autoRevealExclude": {
-      "**/node_modules": false,
-    }
+    "editor.codeActionWidget.includeNearbyQuickFixes": false,
+    "accessibility.alert.terminalQuickFix": false,
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "other": "off",
+      "strings": "off"
+    },
+    "emmet.showAbbreviationSuggestions": false,
+    "editor.inlineSuggest.enabled": false,
+    // "explorer.autoRevealExclude": {
+    //   "**/node_modules": false,
+    // }
 }
